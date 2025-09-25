@@ -19,7 +19,7 @@ STEP-4: Arrange the characters of the keyword in sorted order and the correspond
 STEP-5: Read the characters row wise or column wise in the former order to get the cipher text.
 
 # PROGRAM
-
+~~~
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -66,7 +66,7 @@ d[j] = c[i]; j += 2;
 d[l] = '\0'; // Null-terminate the decrypted string
 printf("\nText after decryption: %s\n", d); return 0; // Properly return from main
 }
-
+~~~
 # OUTPUT
 
 ![WhatsApp Image 2025-09-25 at 09 22 48_19f8d6c3](https://github.com/user-attachments/assets/4ba7757c-8057-414c-8b90-40e21de56075)
